@@ -10,19 +10,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px; /* Ensure padding for smaller screens */
+  padding: 10px; 
 }
 .calculator {
   background-color: #3a4452;
   padding: 20px;
   border-radius: 10px;
   width: 100%;
-  max-width: 400px; /* Limit the width on larger screens */
+  max-width: 400px;
 }
 .calculator form input {
   border: 0;
   outline: 0;
-  width: 20%; /* Make buttons scale based on the container */
+  width: 20%; 
   height: 60px;
   border-radius: 10px;
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
@@ -41,9 +41,9 @@ form .display {
 form .display input {
   text-align: right;
   flex: 1;
-  font-size: 35px; /* Adjusted font size for better responsiveness */
+  font-size: 35px;
   box-shadow: none;
-  padding: 10px; /* Add padding for better appearance */
+  padding: 10px; 
 }
 .operator {
   color: aqua !important;
@@ -52,7 +52,7 @@ form .display input {
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .calculator form input {
-    width: 20%; /* Slightly larger on smaller screens */
+    width: 20%;
     height: 50px;
     font-size: 18px;
   }
